@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nodar Kontselidze · Photography</title>
+  <meta name="description" content="Photography portfolio of Nodar Kontselidze.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">Nodar Kontselidze</a>
+    <nav class="nav" aria-label="Main">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">Photography</p>
+      <h1>Light, people and places.</h1>
+      <p class="lede">A selection of portraits, streets and landscapes from Tbilisi and beyond.</p>
+    </section>
+
+    <section id="work" class="work" aria-label="Portfolio">
+      <div class="filters" role="toolbar" aria-label="Filter by category"></div>
+      <div class="grid"></div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="about-photo">
+        <img src="images/photo-03.svg" alt="Portrait of Nodar Kontselidze" loading="lazy">
+      </div>
+      <div class="about-text">
+        <h2>About</h2>
+        <p>I'm Nodar, a photographer based in Tbilisi, Georgia. I shoot mostly in natural light and look for quiet moments that are easy to miss.</p>
+        <p>Available for portraits, events and small commercial projects. Prints of selected work are available on request.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Let's work together</h2>
+      <p>Tell me about your idea and I'll reply within two working days.</p>
+      <a class="button" href="mailto:hello@example.com">hello@example.com</a>
+      <ul class="social">
+        <li><a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Nodar Kontselidze. All photos are mine, please ask before using.</p>
+  </footer>
+
+  <dialog class="lightbox" aria-label="Photo viewer">
+    <button class="lb-close" aria-label="Close">×</button>
+    <button class="lb-prev" aria-label="Previous photo">‹</button>
+    <figure>
+      <img alt="">
+      <figcaption></figcaption>
+    </figure>
+    <button class="lb-next" aria-label="Next photo">›</button>
+  </dialog>
+
+  <script src="js/photos.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
